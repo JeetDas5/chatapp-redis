@@ -2,16 +2,16 @@ import { Redis } from "ioredis";
 import { Server } from "socket.io";
 
 const pub = new Redis({
-  host: "valkey-3fefcd1a-chatapp-jeet.h.aivencloud.com",
+  host: process.env.AIVEN_HOST!,
   port: 25521,
   username: "default",
-  password: "AVNS_KOHTT3Nom4FO03CuHCj",
+  password: process.env.AIVEN_PASSWORD!,
 });
 const sub = new Redis({
-  host: "valkey-3fefcd1a-chatapp-jeet.h.aivencloud.com",
+  host: process.env.AIVEN_HOST!,
   port: 25521,
   username: "default",
-  password: "AVNS_KOHTT3Nom4FO03CuHCj",
+  password: process.env.AIVEN_PASSWORD!,
 });
 
 class SocketService {
