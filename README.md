@@ -28,8 +28,8 @@ chat-app/
 ### Installation
 1. Clone the repository:
 	 ```sh
-	 git clone <repo-url>
-	 cd chat-app
+	 git clone https://github.com/JeetDas5/chatapp-redis.git[https://github.com/JeetDas5/chatapp-redis.git]
+	 cd chatapp-redis
 	 ```
 2. Install dependencies:
 	 ```sh
@@ -78,9 +78,4 @@ chat-app/
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a pull request
 
-## License
-MIT
-
----
-
-For more details, see individual README files in each app/package folder.
+Made with ❤️ by Jeet Das
